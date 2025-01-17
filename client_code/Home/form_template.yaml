@@ -93,7 +93,7 @@ components:
     type: Label
   layout_properties: {slot: default}
   name: xy_panel_1
-  properties: {height: 590.3333129882812}
+  properties: {height: 590.3333129882812, visible: true}
   type: XYPanel
 container:
   properties: {background: 'theme:On Primary', html: '@theme:standard-page.html', visible: true}
