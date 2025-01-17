@@ -1,0 +1,118 @@
+components:
+- layout_properties: {slot: title}
+  name: label_1
+  properties: {background: '', bold: true, font_size: 29, foreground: 'theme:On Primary Container', italic: false, text: EasyBraille}
+  type: Label
+- components:
+  - event_bindings: {click: home_click}
+    layout_properties: {}
+    name: home
+    properties: {background: 'theme:On Primary', border: '', text: Home, visible: true}
+    type: Button
+  - event_bindings: {click: info_click}
+    name: info
+    properties: {background: 'theme:On Primary', border: '', text: Info, visible: true}
+    type: Button
+  - name: spacer_1
+    properties: {height: 32}
+    type: Spacer
+  - event_bindings: {click: frombraille_click}
+    layout_properties: {}
+    name: frombraille
+    properties: {background: 'theme:Primary Container', text: Convert From Braille}
+    type: Button
+  - event_bindings: {click: tobraille_click}
+    layout_properties: {}
+    name: tobraille
+    properties: {background: 'theme:Primary Container', text: Convert to Braille}
+    type: Button
+  layout_properties: {slot: left-nav}
+  name: linear_panel_2
+  properties: {}
+  type: LinearPanel
+- event_bindings: {click: pharma_click}
+  layout_properties: {slot: nav-right}
+  name: pharma
+  properties: {font_size: 14, text: Visit pharmabraille.com to learn braille, url: 'https://www.pharmabraille.com/pharmaceutical-braille/the-braille-alphabet/'}
+  type: Link
+- components:
+  - layout_properties: {grid_position: 'CHRXVD,PDAXOL'}
+    name: label_2
+    properties: {align: center, background: 'theme:On Primary Container', bold: true, font_size: 25, foreground: 'theme:On Primary', italic: false, text: Convert to Braille, underline: false}
+    type: Label
+  - components:
+    - layout_properties: {width: 402.66685498046877, x: 9.45829264447093, y: 13.583338420838118}
+      name: textbox
+      properties: {background: 'theme:Primary', font_size: 20, foreground: 'theme:Primary Container', height: 312.111083984375}
+      type: TextArea
+    - event_bindings: {change: braillebox_change}
+      layout_properties: {width: 410.1944580078125, x: 547.9444376640022, y: 13.69443766400218}
+      name: braillebox
+      properties: {background: 'theme:Primary', enabled: false, font_size: 20, foreground: 'theme:Primary Container', height: 312}
+      type: TextArea
+    - event_bindings: {click: i_use_click}
+      layout_properties: {width: 200, x: 380.51383463665843, y: 33.86110941693187}
+      name: i_use
+      properties: {background: 'theme:Primary Container', font_size: 24, foreground: 'theme:On Secondary Container', text: ⓘ}
+      type: Button
+    - event_bindings: {click: convert_click}
+      layout_properties: {width: 200, x: 377.84720866009593, y: 95.19445292279124}
+      name: convert
+      properties: {background: 'theme:Primary Container', font: '', font_size: 18, foreground: 'theme:On Primary Container', text: Convert}
+      type: Button
+    - event_bindings: {change: lang_change}
+      layout_properties: {width: 237.44444274902344, x: 363.6249796561897, y: 345.1527964286506}
+      name: lang
+      properties:
+        background: theme:Primary Container
+        font_size: 18
+        foreground: theme:On Primary Container
+        italic: false
+        items: [English, Spanish, French, Japanese, Chinese, Dutch, Hindi, Italian, Russian, Bengali, Swedish, Thai, Urdu, German, Javanese, Korean, Portuguese, Arabic, Vietnamese, Turkish]
+        underline: false
+      type: DropDown
+    - layout_properties: {width: 200, x: 380.4860636405647, y: 270.44448344036937}
+      name: selectmsg
+      properties:
+        align: center
+        bold: false
+        italic: true
+        text: |
+          Select language
+          you are using in
+          your text
+        underline: true
+      type: Label
+    - data_bindings: []
+      layout_properties: {width: 947.7777709960938, x: 0, y: 397.6666564941406}
+      name: infobox
+      properties:
+        align: left
+        background: ''
+        bold: false
+        enabled: false
+        foreground: theme:On Primary Container
+        height: 411.55548095703125
+        role: null
+        text: |
+          HOW TO USE
+          This page...
+        visible: false
+      type: TextArea
+    - event_bindings: {click: crossinfo_click}
+      layout_properties: {width: 79.54166412353516, x: 858.2916361503303, y: 407.0278129577637}
+      name: crossinfo
+      properties: {background: 'theme:Error', font_size: 16, foreground: 'theme:Primary Container', text: X, visible: false}
+      type: Button
+    layout_properties: {grid_position: 'WDGKYM,ZQYOFS'}
+    name: xy_panel_1
+    properties: {height: 809.22216796875}
+    type: XYPanel
+  layout_properties: {slot: default}
+  name: column_panel_1
+  properties: {}
+  type: ColumnPanel
+container:
+  properties: {background: '', html: '@theme:standard-page.html', visible: true}
+  type: HtmlTemplate
+is_package: true

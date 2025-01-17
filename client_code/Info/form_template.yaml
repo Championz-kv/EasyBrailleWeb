@@ -1,0 +1,50 @@
+components:
+- layout_properties: {slot: title}
+  name: label_1
+  properties: {background: '', bold: true, font_size: 29, foreground: 'theme:On Primary Container', italic: false, text: EasyBraille}
+  type: Label
+- components:
+  - event_bindings: {click: home_click}
+    layout_properties: {}
+    name: home
+    properties: {background: 'theme:On Primary', border: '', text: Home, visible: true}
+    type: Button
+  - event_bindings: {click: info_click}
+    name: info
+    properties: {background: 'theme:On Primary', border: '', text: Info, visible: true}
+    type: Button
+  - name: spacer_1
+    properties: {height: 32}
+    type: Spacer
+  - event_bindings: {click: frombraille_click}
+    layout_properties: {}
+    name: frombraille
+    properties: {background: 'theme:Primary Container', text: Convert From Braille}
+    type: Button
+  - event_bindings: {click: tobraille_click}
+    layout_properties: {}
+    name: tobraille
+    properties: {background: 'theme:Primary Container', text: Convert to Braille}
+    type: Button
+  layout_properties: {slot: left-nav}
+  name: linear_panel_2
+  properties: {}
+  type: LinearPanel
+- event_bindings: {click: pharma_click}
+  layout_properties: {slot: nav-right}
+  name: pharma
+  properties: {font_size: 14, text: Visit pharmabraille.com to learn braille, url: 'https://www.pharmabraille.com/pharmaceutical-braille/the-braille-alphabet/'}
+  type: Link
+- components:
+  - layout_properties: {grid_position: 'REHHUT,SNSBOH'}
+    name: label_2
+    properties: {align: center, bold: true, font_size: 25, italic: true, text: EasyBraille Info}
+    type: Label
+  layout_properties: {slot: default}
+  name: column_panel_1
+  properties: {}
+  type: ColumnPanel
+container:
+  properties: {background: '', html: '@theme:standard-page.html', visible: true}
+  type: HtmlTemplate
+is_package: true

@@ -1,0 +1,175 @@
+components:
+- layout_properties: {slot: title}
+  name: label_1
+  properties: {background: '', bold: true, font_size: 29, foreground: 'theme:On Primary Container', italic: false, text: EasyBraille}
+  type: Label
+- components:
+  - name: flow_panel_1
+    properties: {}
+    type: FlowPanel
+  - event_bindings: {click: home_click}
+    layout_properties: {}
+    name: home
+    properties: {background: 'theme:On Primary', border: '', text: Home, visible: true}
+    type: Button
+  - event_bindings: {click: info_click}
+    name: info
+    properties: {background: 'theme:On Primary', border: '', text: Info, visible: true}
+    type: Button
+  - name: spacer_1
+    properties: {height: 32}
+    type: Spacer
+  - event_bindings: {click: frombraille_click}
+    layout_properties: {}
+    name: frombraille
+    properties: {background: 'theme:Primary Container', text: Convert From Braille}
+    type: Button
+  - event_bindings: {click: tobraille_click}
+    layout_properties: {}
+    name: tobraille
+    properties: {background: 'theme:Primary Container', text: Convert to Braille}
+    type: Button
+  layout_properties: {slot: left-nav}
+  name: linear_panel_2
+  properties: {}
+  type: LinearPanel
+- components: []
+  event_bindings: {click: pharma_click}
+  layout_properties: {slot: nav-right}
+  name: pharma
+  properties: {font_size: 14, text: Visit pharmabraille.com to learn braille, url: 'https://www.pharmabraille.com/pharmaceutical-braille/the-braille-alphabet/'}
+  type: Link
+- components:
+  - layout_properties: {grid_position: 'JMKYCM,JXICFQ'}
+    name: label_2
+    properties: {align: center, background: 'theme:On Primary Container', bold: true, font_size: 25, foreground: 'theme:On Primary', italic: false, text: Convert From Braille, underline: false}
+    type: Label
+  - components:
+    - event_bindings: {change: textbox_change}
+      layout_properties: {width: 302.6458435058594, x: 654.8229929618537, y: 20.125010173767805}
+      name: textbox
+      properties: {background: 'theme:Primary Container', enabled: false, height: 259.22222900390625, text: ''}
+      type: TextArea
+    - components:
+      - data_bindings: []
+        event_bindings: {change: btn1_change}
+        layout_properties: {col_xs: 1, row: IDKOBE, width_xs: 1}
+        name: btn1
+        properties: {align: left, allow_indeterminate: false, background: '', bold: false, checked: false, foreground: '', role: null, text: '', tooltip: '1'}
+        type: CheckBox
+      - event_bindings: {change: btn4_change}
+        layout_properties: {col_xs: 2, row: IDKOBE, width_xs: 1}
+        name: btn4
+        properties: {text: '', tooltip: '4'}
+        type: CheckBox
+      - event_bindings: {click: shift_click}
+        layout_properties: {col_xs: 3, row: IDKOBE, width_xs: 8}
+        name: shift
+        properties: {background: 'theme:Tertiary Container', foreground: '', text: Shift}
+        type: Button
+      - event_bindings: {change: btn2_change}
+        layout_properties: {col_xs: 1, row: SDQFAR, width_xs: 1}
+        name: btn2
+        properties: {text: '', tooltip: '2'}
+        type: CheckBox
+      - event_bindings: {change: btn5_change}
+        layout_properties: {col_xs: 2, row: SDQFAR, width_xs: 1}
+        name: btn5
+        properties: {background: '', text: '', tooltip: '5'}
+        type: CheckBox
+      - event_bindings: {click: backspace_click}
+        layout_properties: {col_xs: 3, row: SDQFAR, width_xs: 8}
+        name: backspace
+        properties: {background: 'theme:Tertiary Container', foreground: '', text: Backspace}
+        type: Button
+      - event_bindings: {change: btn3_change}
+        layout_properties: {col_xs: 1, row: FRPMED, width_xs: 1}
+        name: btn3
+        properties: {text: '', tooltip: '3'}
+        type: CheckBox
+      - event_bindings: {change: btn6_change}
+        layout_properties: {col_xs: 2, row: FRPMED, width_xs: 1}
+        name: btn6
+        properties: {text: '', tooltip: '6'}
+        type: CheckBox
+      - event_bindings: {click: enter_click}
+        layout_properties: {col_xs: 3, row: FRPMED, width_xs: 8}
+        name: enter
+        properties: {background: 'theme:Tertiary Container', foreground: '', text: Enter}
+        type: Button
+      layout_properties: {width: 220, x: 17.458307903259993, y: 18.124994914978743}
+      name: grid_panel_1
+      properties: {}
+      type: GridPanel
+    - data_bindings: []
+      layout_properties: {width: 289.4166564941406, x: 253.29169718548656, y: 22.83335367962718}
+      name: braillebox
+      properties: {background: 'theme:Primary Container', enabled: true, height: 260.22222900390625, text: ''}
+      type: TextArea
+    - event_bindings: {click: convert_click}
+      layout_properties: {width: 133.31944274902344, x: 534.2916666679084, y: 144.29165140911937}
+      name: convert
+      properties: {background: 'theme:On Primary Container', foreground: 'theme:Background', text: Convert}
+      type: Button
+    - event_bindings: {click: i_use_click}
+      layout_properties: {width: 83.43060302734366, x: 561.4027506522834, y: 79.41666666790843}
+      name: i_use
+      properties: {background: 'theme:Primary', font_size: 24, foreground: 'theme:Primary Container', text: ⓘ}
+      type: Button
+    - layout_properties: {width: 218.51388549804688, x: 18.95835367962718, y: 192.27779642865062}
+      name: translatemsg
+      properties:
+        align: center
+        bold: false
+        font_size: 14
+        italic: true
+        text: |
+          Select language
+          you want translation in
+        underline: true
+      type: Label
+    - event_bindings: {change: lang_change}
+      layout_properties: {width: 200, x: 31.30558268353343, y: 243.76388041302562}
+      name: lang
+      properties:
+        background: theme:Tertiary Container
+        font_size: 18
+        foreground: theme:Primary
+        italic: false
+        items: [English, Spanish, French, Japanese, Chinese, Dutch, Hindi, Italian, Russian, Bengali, Swedish, Thai, Urdu, German, Javanese, Korean, Portuguese, Arabic, Vietnamese, Turkish]
+        underline: false
+      type: DropDown
+    - data_bindings: []
+      layout_properties: {width: 947.7777709960938, x: 1.8472239188849926, y: 336.66668701171875}
+      name: infobox
+      properties:
+        align: left
+        background: ''
+        bold: false
+        enabled: false
+        foreground: theme:On Primary Container
+        height: 460
+        role: null
+        text: |
+          HOW TO USE
+          This page...
+        visible: false
+      type: TextArea
+    - event_bindings: {click: crossinfo_click}
+      layout_properties: {width: 58.43055725097656, x: 877.7360941581428, y: 348.2083384208381}
+      name: crossinfo
+      properties: {background: 'theme:Error', font_size: 16, foreground: 'theme:Primary Container', text: X, visible: false}
+      type: Button
+    layout_properties: {grid_position: 'HITZNR,JPKQTK'}
+    name: xy_panel_1
+    properties: {height: 796.6666870117188}
+    type: XYPanel
+  layout_properties: {slot: default}
+  name: column_panel_1
+  properties: {}
+  type: ColumnPanel
+container:
+  properties: {background: '', html: '@theme:standard-page.html', visible: true}
+  type: HtmlTemplate
+custom_component: false
+is_package: true
