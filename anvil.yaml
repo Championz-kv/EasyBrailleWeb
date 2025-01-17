@@ -32,7 +32,7 @@ db_schema:
     title: Users
 dependencies: []
 metadata: {description: Translate to and from Braille in the easiest way !, logo_img: 'asset:braille.png', title: EasyBraille}
-name: Clone of EasyBraille γ
+name: EasyBraille CodeComplete
 native_deps:
   head_html: |-
     <link rel="preconnect" href="https://fonts.googleapis.com">
