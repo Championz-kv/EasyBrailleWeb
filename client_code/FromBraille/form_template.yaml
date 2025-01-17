@@ -140,7 +140,7 @@ components:
         underline: false
       type: DropDown
     - data_bindings: []
-      layout_properties: {width: 947.7777709960938, x: 1.8472239188849926, y: 336.66668701171875}
+      layout_properties: {width: 947.7777709960938, x: 0, y: 0}
       name: infobox
       properties:
         align: left
@@ -148,7 +148,7 @@ components:
         bold: false
         enabled: false
         foreground: theme:On Primary Container
-        height: 460
+        height: 342.55548095703125
         role: null
         text: |
           HOW TO USE
@@ -156,13 +156,13 @@ components:
         visible: false
       type: TextArea
     - event_bindings: {click: crossinfo_click}
-      layout_properties: {width: 58.43055725097656, x: 877.7360941581428, y: 348.2083384208381}
+      layout_properties: {width: 58.43055725097656, x: 876.9305521659553, y: 20.277781169861555}
       name: crossinfo
       properties: {background: 'theme:Error', font_size: 16, foreground: 'theme:Primary Container', text: X, visible: false}
       type: Button
     layout_properties: {grid_position: 'HITZNR,JPKQTK'}
     name: xy_panel_1
-    properties: {height: 796.6666870117188}
+    properties: {height: 363.66668701171875}
     type: XYPanel
   layout_properties: {slot: default}
   name: column_panel_1
