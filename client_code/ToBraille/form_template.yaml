@@ -4,6 +4,9 @@ components:
   properties: {background: '', bold: true, font_size: 29, foreground: 'theme:On Primary Container', italic: false, text: EasyBraille}
   type: Label
 - components:
+  - name: spacer_2
+    properties: {height: 32}
+    type: Spacer
   - event_bindings: {click: home_click}
     layout_properties: {}
     name: home
@@ -16,15 +19,14 @@ components:
   - name: spacer_1
     properties: {height: 32}
     type: Spacer
+  - event_bindings: {click: tobraille_click}
+    name: tobraille
+    properties: {background: 'theme:Primary Container', text: Convert to Braille}
+    type: Button
   - event_bindings: {click: frombraille_click}
     layout_properties: {}
     name: frombraille
     properties: {background: 'theme:Primary Container', text: Convert From Braille}
-    type: Button
-  - event_bindings: {click: tobraille_click}
-    layout_properties: {}
-    name: tobraille
-    properties: {background: 'theme:Primary Container', text: Convert to Braille}
     type: Button
   layout_properties: {slot: left-nav}
   name: linear_panel_2
