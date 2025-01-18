@@ -154,7 +154,7 @@ def to_braille(txt):
             brailletxt += tobraille[txt[i]]
         elif txt[i] in ["."] :
             brailletxt += tobraille[txt[i]]
-        else:
+        elif txt[i] in tobraille :
             if txt[i] in " ,-;:?!'\\\"()#&/" :
                 num = False
             else:
@@ -162,6 +162,8 @@ def to_braille(txt):
                     num = False
                     brailletxt += "⠰"
             brailletxt += tobraille[txt[i].lower()]
+        else:
+          brailletxt += "□"
     if caps is True:
         brailletxt += "⠠⠄"
     return brailletxt
