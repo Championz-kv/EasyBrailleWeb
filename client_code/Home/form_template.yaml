@@ -87,9 +87,9 @@ components:
       italic: true
       text: "Type Braille characters using the \neasy-to-use click keyboard, or paste braille text, and quickly get the translated words"
     type: Label
-  - layout_properties: {width: 261.3055725097656, x: 652.6527811698616, y: 449.0833570957184}
+  - layout_properties: {width: 292.75, x: 626.0278116874397, y: 457.12500762939453}
     name: label_6_copy
-    properties: {align: right, font_size: 16, italic: true, text: Type the text which you want to translate and get the braille code for it in an instant.}
+    properties: {align: right, font_size: 16, italic: true, text: Type the text which you want to translate and get the braille code equivalent for it in an instant.}
     type: Label
   layout_properties: {slot: default}
   name: xy_panel_1
