@@ -156,9 +156,9 @@ components:
         visible: false
       type: TextArea
     - event_bindings: {click: crossinfo_click}
-      layout_properties: {width: 58.43055725097656, x: 876.9305521659553, y: 20.277781169861555}
+      layout_properties: {width: 70.8474580078126, x: 876.9305521659553, y: 20.277781169861555}
       name: crossinfo
-      properties: {background: 'theme:Error', font_size: 16, foreground: 'theme:Primary Container', text: X, visible: false}
+      properties: {background: 'theme:Error', font_size: 16, foreground: 'theme:Primary Container', icon: 'fa:close', text: '', visible: false}
       type: Button
     layout_properties: {grid_position: 'HITZNR,JPKQTK'}
     name: xy_panel_1

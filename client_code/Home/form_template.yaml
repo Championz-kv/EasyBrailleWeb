@@ -78,7 +78,7 @@ components:
     type: Label
   - layout_properties: {width: 340.40277099609375, x: 613.7362162284553, y: 12.08333420753479}
     name: image_2
-    properties: {height: 301.66668701171875, source: _/theme/image-removebg-preview (1).png}
+    properties: {alt_text: EasyBrailleWeb, height: 301.66668701171875, source: _/theme/image-removebg-preview (1).png}
     type: Image
   - layout_properties: {width: 304.86068701171877, x: 137.73615519329906, y: 453.2917311191559}
     name: label_6
