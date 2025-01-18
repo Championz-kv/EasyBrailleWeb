@@ -39,14 +39,30 @@ components:
   properties: {font_size: 14, text: Visit pharmabraille.com to learn braille, url: 'https://www.pharmabraille.com/pharmaceutical-braille/the-braille-alphabet/'}
   type: Link
 - components:
-  - layout_properties: {grid_position: 'REHHUT,SNSBOH'}
-    name: label_2
-    properties: {align: center, bold: true, font_size: 25, italic: true, text: EasyBraille Info}
-    type: Label
+  - layout_properties: {}
+    name: image_1
+    properties: {alt_text: 'EasyBraille Web Application  EasyBraille is combination of dual translators, one converting braille code to text and other one doing the vice versa. This project aims to make it easy for normal users to connect with the visually impaired by decoding and encoding their language, i.e. braille quickly.', height: 411.77777099609375, source: _/theme/1.png}
+    type: Image
+  - layout_properties: {}
+    name: image_1_copy
+    properties: {alt_text: 'The convert ''to braille'' translator allows the user to enter the text, and then to convert it to braille text which can be copied and used for printing purposes. Feature for translation is also made available where language apart from English can be used as text, which will then be translated to English, and then to the braille code. However, the braille code is supposed the represent the English translation and not the original language on translation.', height: 394.5555419921875, source: _/theme/2.png}
+    type: Image
+  - layout_properties: {}
+    name: image_1_copy_2
+    properties: {alt_text: 'The convert ''from braille'' translator allows the user to either type the braille characters or paste them if they have softcopy. The virtual typing was made in the way so the users can type the characters in fast and efficient way in case they are typing manually from a hardcopy braille code. The braille could be converted to English text or can be translated to the languages available, given that the braille is in English language.', height: 409.55548095703125, source: _/theme/3.png}
+    type: Image
+  - layout_properties: {}
+    name: image_1_copy_3
+    properties: {alt_text: 'The translators are made with accuracy in the mind. However, no machine can translate a braille with 100% accuracy as a human. Same goes for the translation. This application uses translator module of python which uses google API for translation between various languages. There is possibility that the words convey slightly different meaning or tone as what was supposed to be.  The braille conversion rules have been taken from various verified sources including pharmabraille and wikipedia, and the characters used in the translators are taken from the officially recognized ''The Unicode Standard, Version 16.0''. This website was created with the help of anvil.', height: 508.22216796875, source: _/theme/4.png}
+    type: Image
+  - layout_properties: {}
+    name: spacer_3
+    properties: {height: 60}
+    type: Spacer
   layout_properties: {slot: default}
-  name: column_panel_1
-  properties: {}
-  type: ColumnPanel
+  name: linear_panel_1
+  properties: {background: 'theme:On Primary'}
+  type: LinearPanel
 container:
   properties: {background: '', html: '@theme:standard-page.html', visible: true}
   type: HtmlTemplate

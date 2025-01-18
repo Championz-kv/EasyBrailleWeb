@@ -140,29 +140,30 @@ components:
         underline: false
       type: DropDown
     - data_bindings: []
-      layout_properties: {width: 947.7777709960938, x: 0, y: 0}
+      layout_properties: {width: 965.778, x: 0, y: 0}
       name: infobox
       properties:
         align: left
         background: ''
         bold: false
         enabled: false
+        font_size: 18
         foreground: theme:On Primary Container
-        height: 342.55548095703125
+        height: 319.55548095703125
+        italic: true
         role: null
-        text: |
-          HOW TO USE
-          This page...
+        text: "The convert 'from braille' translator allows the user to either type the braille characters or paste \nthem, and then decode it to normal text.\n\nStep by step Instructions-\n- Braille has a six dot structure, identify the dots used and select the respective checkboxes. When done, click on Shift to shift the braille on textbox.\n- Repeat this for each braille. Press Shift without checking any box for a space and Enter to move text to next line.\n- You may simply paste the text in textbox if u have it copied. Be sure the braille is in English language.\n- If you want the translated text in a language other than English, select the language from dropdown.\n- Select the confirm button. Translating to other languages may take time, more at first time.\n- Copy the text provided. That's it !"
+        underline: false
         visible: false
       type: TextArea
     - event_bindings: {click: crossinfo_click}
-      layout_properties: {width: 70.8474580078126, x: 876.9305521659553, y: 20.277781169861555}
+      layout_properties: {width: 70.84722137451172, x: 885.8610026054084, y: 20.319452922791243}
       name: crossinfo
       properties: {background: 'theme:Error', font_size: 16, foreground: 'theme:Primary Container', icon: 'fa:close', text: '', visible: false}
       type: Button
     layout_properties: {grid_position: 'HITZNR,JPKQTK'}
     name: xy_panel_1
-    properties: {height: 363.66668701171875}
+    properties: {height: 321.33331298828125}
     type: XYPanel
   layout_properties: {slot: default}
   name: column_panel_1

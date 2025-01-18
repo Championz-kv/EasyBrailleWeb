@@ -390,3 +390,7 @@ class FromBraille(FromBrailleTemplate):
       self.textbox.text = finaltxt
     
 ##############################################
+
+  def textbox_change(self, **event_args):
+    """This method is called when the text in this text area is edited"""
+    pass
