@@ -13,8 +13,9 @@ components:
     properties: {background: 'theme:On Primary', border: '', text: Home, visible: true}
     type: Button
   - event_bindings: {click: info_click}
+    layout_properties: {}
     name: info
-    properties: {background: 'theme:On Primary', border: '', text: Info, visible: true}
+    properties: {background: 'theme:On Primary', border: '', text: About EasyBraille, visible: true}
     type: Button
   - name: spacer_1
     properties: {height: 32}
