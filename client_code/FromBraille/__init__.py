@@ -276,6 +276,8 @@ class FromBraille(FromBrailleTemplate):
 
   def home_click(self, **event_args):
     open_form("Home")
+  def BrailleConnect_click(self, **event_args):
+    open_form("BrailleConnect")
   def frombraille_click(self, **event_args):
     """This method is called when the button is clicked"""
     pass

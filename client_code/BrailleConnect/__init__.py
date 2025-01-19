@@ -195,6 +195,8 @@ class BrailleConnect(BrailleConnectTemplate):
 
   def home_click(self, **event_args):
     open_form("Home")
+  def BrailleConnect_click(self, **event_args):
+    open_form("BrailleConnect")
 
   def frombraille_click(self, **event_args):
     open_form("FromBraille")

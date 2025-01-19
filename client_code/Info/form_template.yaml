@@ -29,6 +29,10 @@ components:
     name: frombraille
     properties: {background: 'theme:Primary Container', text: Convert From Braille}
     type: Button
+  - event_bindings: {click: BrailleConnect_click}
+    name: BrailleConnect
+    properties: {background: 'theme:On Primary', border: '', text: Connect with AI, visible: true}
+    type: Button
   layout_properties: {slot: left-nav}
   name: linear_panel_2
   properties: {}

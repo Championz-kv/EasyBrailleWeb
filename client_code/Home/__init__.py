@@ -19,6 +19,8 @@ class Home(HomeTemplate):
   def home_click(self, **event_args):
     """This method is called when the button is clicked"""
     pass
+  def BrailleConnect_click(self, **event_args):
+    open_form("BrailleConnect")
   def info_click(self, **event_args):
     open_form('Info')
   def frombraille_click(self, **event_args):
