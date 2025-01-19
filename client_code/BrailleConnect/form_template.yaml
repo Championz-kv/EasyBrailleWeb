@@ -37,11 +37,10 @@ components:
   name: linear_panel_2
   properties: {}
   type: LinearPanel
-- event_bindings: {click: pharma_click}
-  layout_properties: {slot: nav-right}
-  name: pharma
-  properties: {font_size: 14, text: Visit pharmabraille.com to learn braille, url: 'https://www.pharmabraille.com/pharmaceutical-braille/the-braille-alphabet/'}
-  type: Link
+- layout_properties: {slot: nav-right}
+  name: label_2
+  properties: {font_size: 14, text: Click on the Chat icon and chat with BrailleConnect AI !}
+  type: Label
 container:
   properties: {background: '', html: '@theme:bot-page.html', visible: true}
   type: HtmlTemplate

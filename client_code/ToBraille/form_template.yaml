@@ -103,7 +103,7 @@ components:
         height: 311.66668701171875
         italic: true
         role: null
-        text: "The convert 'to braille' translator allows the user to enter the text, and then to convert it to \nbraille text which can be copied and used for printing purposes.\n\nStep by step Instructions-\n- Type or paste the text required for translation. If text is not in English, select the language from dropdown.\n- Select the confirm button. Translating from other languages may take time, more at first time.\n- Copy the braille code provided. That's it !"
+        text: "The convert 'to braille' translator allows the user to enter the text, and then to convert it to \nbraille text which can be copied and used for printing purposes.\n\nStep by step Instructions-\n- Type or paste the text required for translation. If text is not in English, select the language from dropdown.\n- Select the confirm button. Translating from other languages may take time, more at first time.\n- Copy the braille code u get after conversion. That's it !"
         visible: false
       type: TextArea
     - event_bindings: {click: crossinfo_click}
