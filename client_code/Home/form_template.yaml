@@ -118,7 +118,7 @@ components:
   - event_bindings: {click: BrailleConnect_click}
     layout_properties: {width: 81, x: 484.15625, y: 708.546875}
     name: ChatNowBtn
-    properties: {background: 'theme:On Secondary Container', foreground: 'theme:Tertiary Container', text: Chat Now}
+    properties: {background: 'theme:On Secondary Container', foreground: 'theme:On Secondary', text: Chat Now}
     type: Button
   layout_properties: {slot: default}
   name: xy_panel_1

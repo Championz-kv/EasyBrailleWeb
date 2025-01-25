@@ -44,10 +44,10 @@ components:
   properties: {font_size: 14, text: Visit pharmabraille.com to learn braille, url: 'https://www.pharmabraille.com/pharmaceutical-braille/the-braille-alphabet/'}
   type: Link
 - components:
-  - layout_properties: {grid_position: 'JMKYCM,JXICFQ'}
-    name: label_2
-    properties: {align: center, background: 'theme:On Primary Container', bold: true, font_size: 25, foreground: 'theme:On Primary', italic: false, text: Convert From Braille, underline: false}
-    type: Label
+  - layout_properties: {grid_position: 'EWZGYU,JEKTCL'}
+    name: image_1
+    properties: {height: 72.5, source: _/theme/frombr.png}
+    type: Image
   - components:
     - event_bindings: {change: textbox_change}
       layout_properties: {width: 302.6458435058594, x: 654.8229929618537, y: 20.125010173767805}

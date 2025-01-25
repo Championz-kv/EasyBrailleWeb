@@ -47,13 +47,16 @@ components:
     name: image_1
     properties: {alt_text: 'EasyBraille Web Application  EasyBraille is combination of dual translators, one converting braille code to text and other one doing the vice versa. This project aims to make it easy for normal users to connect with the visually impaired by decoding and encoding their language, i.e. braille quickly.', height: 411.77777099609375, source: _/theme/1.png}
     type: Image
-  - layout_properties: {}
-    name: image_1_copy
+  - name: image_1_copy
     properties: {alt_text: 'The convert ''to braille'' translator allows the user to enter the text, and then to convert it to braille text which can be copied and used for printing purposes. Feature for translation is also made available where language apart from English can be used as text, which will then be translated to English, and then to the braille code. However, the braille code is supposed the represent the English translation and not the original language on translation.', height: 394.5555419921875, source: _/theme/2.png}
     type: Image
   - layout_properties: {}
     name: image_1_copy_2
     properties: {alt_text: 'The convert ''from braille'' translator allows the user to either type the braille characters or paste them if they have softcopy. The virtual typing was made in the way so the users can type the characters in fast and efficient way in case they are typing manually from a hardcopy braille code. The braille could be converted to English text or can be translated to the languages available, given that the braille is in English language.', height: 409.55548095703125, source: _/theme/3.png}
+    type: Image
+  - layout_properties: {}
+    name: image_2
+    properties: {height: 285.5, source: _/theme/5.png}
     type: Image
   - layout_properties: {}
     name: image_1_copy_3
