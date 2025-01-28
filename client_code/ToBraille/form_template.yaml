@@ -50,12 +50,12 @@ components:
   - components:
     - layout_properties: {width: 402.66685498046877, x: 9.45829264447093, y: 13.583338420838118}
       name: textbox
-      properties: {background: 'theme:Primary', font_size: 20, foreground: 'theme:Primary Container', height: 238.77777099609375}
+      properties: {background: 'theme:boxclr', font_size: 20, foreground: 'theme:Primary Container', height: 238.77777099609375}
       type: TextArea
     - event_bindings: {change: braillebox_change}
       layout_properties: {width: 410.1944580078125, x: 547.9444376640022, y: 13.69443766400218}
       name: braillebox
-      properties: {background: 'theme:Primary', enabled: false, font_size: 20, foreground: 'theme:Primary Container', height: 238.111083984375}
+      properties: {background: 'theme:boxclr', enabled: false, font_size: 20, foreground: 'theme:Primary Container', height: 238.111083984375}
       type: TextArea
     - event_bindings: {click: i_use_click}
       layout_properties: {width: 200, x: 380.51383463665843, y: 33.86110941693187}
