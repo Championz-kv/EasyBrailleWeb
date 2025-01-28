@@ -60,12 +60,12 @@ components:
     - event_bindings: {click: i_use_click}
       layout_properties: {width: 200, x: 380.51383463665843, y: 33.86110941693187}
       name: i_use
-      properties: {background: 'theme:Primary Container', font_size: 24, foreground: 'theme:On Secondary Container', text: ⓘ}
+      properties: {background: 'theme:btnclr', font_size: 24, foreground: 'theme:On Secondary Container', text: ⓘ}
       type: Button
     - event_bindings: {click: convert_click}
       layout_properties: {width: 200, x: 377.84720866009593, y: 95.19445292279124}
       name: convert
-      properties: {background: 'theme:Primary Container', font: '', font_size: 18, foreground: 'theme:On Primary Container', text: Convert}
+      properties: {background: 'theme:btnclr', font: '', font_size: 18, foreground: 'theme:On Primary Container', text: Convert}
       type: Button
     - event_bindings: {change: lang_change}
       layout_properties: {width: 237.44444274902344, x: 363.6249796561897, y: 265.1527964286506}
