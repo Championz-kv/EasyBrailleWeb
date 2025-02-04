@@ -1,4 +1,4 @@
-# [EasyBrailleWeb]([https://anvil.works/?utm_source=github:app_README](https://quiet-formal-habit.anvil.app/))
+# [EasyBrailleWeb](https://quiet-formal-habit.anvil.app/)
 For those who can see,  but not utilize the power of those dots on their own !
 We Bring to you this app so you can easily connect with those who are visually impaired.
 
