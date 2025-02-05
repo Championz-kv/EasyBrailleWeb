@@ -126,18 +126,18 @@ components:
         align: center
         bold: false
         font_size: 14
-        italic: true
+        italic: false
         text: |
           Select language
           you want translation in
-        underline: true
+        underline: false
       type: Label
     - event_bindings: {change: lang_change}
       layout_properties: {width: 200, x: 31.30558268353343, y: 243.76388041302562}
       name: lang
       properties:
         background: theme:Tertiary Container
-        font_size: 18
+        font_size: 16
         foreground: theme:Primary
         italic: false
         items: [English, Spanish, French, Japanese, Chinese, Dutch, Hindi, Italian, Russian, Bengali, Swedish, Thai, Urdu, German, Javanese, Korean, Portuguese, Arabic, Vietnamese, Turkish]
