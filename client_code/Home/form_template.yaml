@@ -80,10 +80,6 @@ components:
         Translators
       underline: false
     type: Label
-  - layout_properties: {width: 707.138916015625, x: 191.99997965618968, y: 399.11112809181213}
-    name: label_5
-    properties: {bold: false, font_size: 22, foreground: 'theme:On Tertiary Container', italic: false, text: 'From Braille                                                                                  To Braille   ', underline: false}
-    type: Label
   - layout_properties: {width: 340.40277099609375, x: 613.7362162284553, y: 12.08333420753479}
     name: image_2
     properties: {alt_text: EasyBrailleWeb, height: 301.66668701171875, source: _/theme/image-removebg-preview (1).png}
@@ -91,13 +87,15 @@ components:
   - layout_properties: {width: 304.86068701171877, x: 137.73615519329906, y: 453.2917311191559}
     name: label_6
     properties:
+      bold: true
+      font: Delius
       font_size: 16
-      italic: true
+      italic: false
       text: "Type Braille characters using the \neasy-to-use click keyboard, or paste braille text, and quickly get the translated words"
     type: Label
   - layout_properties: {width: 292.75, x: 626.0278116874397, y: 457.12500762939453}
     name: label_6_copy
-    properties: {align: right, font_size: 16, italic: true, text: Type the text which you want to translate and get the braille code equivalent for it in an instant.}
+    properties: {align: right, bold: true, font: Delius, font_size: 16, italic: false, text: Type the text which you want to translate and get the braille code equivalent for it in an instant.}
     type: Label
   - layout_properties: {width: 200, x: 429.25, y: 582.96875}
     name: label_7
@@ -120,6 +118,10 @@ components:
     name: ChatNowBtn
     properties: {background: 'theme:On Secondary Container', foreground: 'theme:On Secondary', text: Chat Now}
     type: Button
+  - layout_properties: {width: 708.125, x: 190.03125, y: 409.15625}
+    name: label_5
+    properties: {bold: true, font: Josefin Sans, font_size: 21, foreground: 'theme:On Tertiary Container', italic: false, text: 'From Braille                                                                     To Braille   ', underline: false}
+    type: Label
   layout_properties: {slot: default}
   name: xy_panel_1
   properties: {height: 851.5, visible: true}

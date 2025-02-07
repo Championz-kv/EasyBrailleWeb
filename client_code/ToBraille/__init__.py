@@ -86,7 +86,8 @@ tobraille = { "a" : "⠁",
 
 global selectlang
 selectlang = "en"
-languages = {"Spanish" : "es", 
+languages = {"English" : "en",
+"Spanish" : "es", 
 "French" : "fr", 
 "Japanese" : "ja", 
 "Chinese" : "zh", 
