@@ -176,10 +176,16 @@ class ToBraille(ToBrailleTemplate):
     # Any code you write here will run before the form opens.
 
   def home_click(self, **event_args):
+    global selectlang
+    selectlang = "en"
     open_form("Home")
   def BrailleConnect_click(self, **event_args):
+    global selectlang
+    selectlang = "en"
     open_form("BrailleConnect")
   def frombraille_click(self, **event_args):
+    global selectlang
+    selectlang = "en"
     open_form("FromBraille")
   def tobraille_click(self, **event_args):
     """This method is called when the button is clicked"""
@@ -188,6 +194,8 @@ class ToBraille(ToBrailleTemplate):
     c = Link(url="https://www.pharmabraille.com/pharmaceutical-braille/the-braille-alphabet/")
     self.add_component(c)
   def info_click(self, **event_args):
+    global selectlang
+    selectlang = "en"
     open_form("Info")
   def i_use_click(self, **event_args):
     self.infobox.visible = True
