@@ -276,6 +276,7 @@ class FromBraille(FromBrailleTemplate):
     # Any code you write here will run before the form opens.
 
   def home_click(self, **event_args):
+    selectlang = "en"
     open_form("Home")
   def BrailleConnect_click(self, **event_args):
     open_form("BrailleConnect")
